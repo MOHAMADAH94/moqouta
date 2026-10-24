@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_wide_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/widget_bg"
+    android:layoutDirection="rtl"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/widget_wide_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="دمشق"
+        android:textColor="@color/moqouta_gold"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layoutDirection="rtl"
+        android:orientation="horizontal">
+
+        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:orientation="vertical">
+            <TextView android:id="@+id/w_name_0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/moqouta_text" android:textSize="11sp" />
+            <TextView android:id="@+id/w_time_0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/moqouta_gold" android:textSize="11sp" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:orientation="vertical">
+            <TextView android:id="@+id/w_name_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/moqouta_text" android:textSize="11sp" />
+            <TextView android:id="@+id/w_time_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/moqouta_gold" android:textSize="11sp" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:orientation="vertical">
+            <TextView android:id="@+id/w_name_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/moqouta_text" android:textSize="11sp" />
+            <TextView android:id="@+id/w_time_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/moqouta_gold" android:textSize="11sp" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:orientation="vertical">
+            <TextView android:id="@+id/w_name_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/moqouta_text" android:textSize="11sp" />
+            <TextView android:id="@+id/w_time_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/moqouta_gold" android:textSize="11sp" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:orientation="vertical">
+            <TextView android:id="@+id/w_name_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/moqouta_text" android:textSize="11sp" />
+            <TextView android:id="@+id/w_time_4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/moqouta_gold" android:textSize="11sp" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:gravity="center" android:orientation="vertical">
+            <TextView android:id="@+id/w_name_5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/moqouta_text" android:textSize="11sp" />
+            <TextView android:id="@+id/w_time_5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="@color/moqouta_gold" android:textSize="11sp" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

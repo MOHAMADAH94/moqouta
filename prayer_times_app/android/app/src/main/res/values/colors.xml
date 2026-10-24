@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="moqouta_green">#FF0A1C17</color>
+    <color name="moqouta_card">#FF112B24</color>
+    <color name="moqouta_gold">#FFD4AF37</color>
+    <color name="ic_launcher_background">#FF115E33</color>
+    <color name="moqouta_text">#FFF4F7F2</color>
+    <color name="moqouta_muted">#FFB7C4BA</color>
+</resources>
